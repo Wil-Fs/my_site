@@ -1,6 +1,6 @@
 import pytest
 
-from blog.models.factories import PostFactory
+from blog.factories import PostFactory
 
 @pytest.fixture
 def post_publish():
